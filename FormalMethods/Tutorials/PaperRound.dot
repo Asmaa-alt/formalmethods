@@ -1,0 +1,19 @@
+digraph state {
+ graph [fontsize=12]
+rankdir=TB;
+"16" -> "ROOT-NODE" [label = "houseNumbers", color = "firebrick"];
+"14" -> "ROOT-NODE" [label = "houseNumbers", color = "firebrick"];
+"12" -> "ROOT-NODE" [label = "houseNumbers", color = "firebrick"];
+"11" -> "ROOT-NODE" [label = "houseNumbers", color = "firebrick"];
+"4" -> "ROOT-NODE" [label = "houseNumbers", color = "firebrick"];
+"3" -> "ROOT-NODE" [label = "houseNumbers", color = "firebrick"];
+"2" -> "ROOT-NODE" [label = "houseNumbers", color = "firebrick"];
+"16" [color = "wheat3", style = "filled, solid", shape = "box"]
+"ROOT-NODE" [color = "lightblue", style = "filled, solid", shape = "diamond"]
+"14" [color = "wheat3", style = "filled, solid", shape = "box"]
+"12" [color = "wheat3", style = "filled, solid", shape = "box"]
+"11" [color = "wheat3", style = "filled, solid", shape = "box"]
+"4" [color = "wheat3", style = "filled, solid", shape = "box"]
+"3" [color = "wheat3", style = "filled, solid", shape = "box"]
+"2" [color = "wheat3", style = "filled, solid", shape = "box"]
+}
